@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+    <name>nudgespot</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">Massachusetts Institute of Technology License (MITL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Nudgespot lets you communicate with your customers (via email/sms), based on their interactions on your store.</summary>
+    <description>This extension connects Magento to Nudgespot. Nudgespot simplifies all your interactions with your customers. &#xD;
+&#xD;
+Using Nudgespot, you can:&#xD;
+&#xD;
+1. Send newsletter style messages via email, SMS or push notifications.&#xD;
+2. Send messages based on what your customers do (or don't) on your store. Examples: cart abandonment emails, birthday greeting/offers, etc&#xD;
+3. Look up customers by their interactions, and send targeted messages to them. Example: Notify accessories available to customers that bought certain camera.&#xD;
+&#xD;
+How it works:&#xD;
+&#xD;
+This extension tracks activities of your customers on your store. You can then go to your Nudgespot dashboard and:&#xD;
+&#xD;
+1. Trigger messages based on rules.&#xD;
+2. Send a broadcast style message to all or certain groups of customers.&#xD;
+3. Look up customers based on any attributes, or even based on their interactions.&#xD;
+4. Add customers to lists, and let Nudgespot automatically add/remove them from them, based on rules you specify.&#xD;
+&#xD;
+The extension currently tracks the following activities:&#xD;
+* Cart updates&#xD;
+* Purchase&#xD;
+* Register&#xD;
+* Reviews&#xD;
+* Search&#xD;
+</description>
+    <notes>First stable version</notes>
+    <authors><author><name>Nudgespot Technologies Inc</name><user>nudgespot</user><email>magento@nudgespot.com</email></author></authors>
+    <date>2015-07-07</date>
+    <time>21:53:30</time>
+    <contents><target name="magecommunity"><dir name="Nudgespot"><dir name="Connect"><dir name="Helper"><file name="Data.php" hash="3315efa1c0610633ef05df9c74f23b72"/></dir><dir name="Model"><file name="Observer.php" hash="75dd1bb6ffb0bcf093041bf0758b2650"/></dir><dir name="etc"><file name="config.xml" hash="3eaca0c05e316dba9c6c1e73c34afd7b"/><file name="system.xml" hash="e64c57cc37fcd0425188291760cd43e2"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.5.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
