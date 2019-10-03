@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/nudgespot",
+    "name": "OpenMageModuleFostering\/nudgespot",
     "type": "magento-module",
     "license": "Massachusetts-Institute-of-Technology-License-(MITL)",
     "homepage": "",
-    "description": "Nudgespot lets you communicate with your customers (via email/sms), based on their interactions on your store.",
+    "description": "Nudgespot lets you communicate with your customers (via email\/sms), based on their interactions on your store.",
     "authors": [
-    {
-        "name": "Nudgespot Technologies Inc",
-        "email": "magento@nudgespot.com"
-    }
-],
+        {
+            "name": "Nudgespot Technologies Inc",
+            "email": "magento@nudgespot.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
